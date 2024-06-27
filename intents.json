@@ -1,0 +1,63 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?", "Hey! What can I do for you?"],
+        "context": [""] 
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"],
+        "context": [""] 
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "Glad I could help!", "No problem!"],
+        "context": [""] 
+      },
+      {
+        "tag":"help",
+        "patterns": ["Yes", "Sure", "Of course", "Absolutely", "Definitely","Ok"],
+        "responses": ["Is there anything I can do for you?"],
+        "context": [""]
+
+      },
+      {
+        "tag": "options",
+        "patterns": ["What can you do?", "How can you help?", "What are your abilities?"],
+        "responses": ["I can assist you with a variety of tasks such as answering questions, providing information, and more. Feel free to ask me anything!"],
+        "context": [""] 
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["......."],
+        "responses": ["I'm sorry, I didn't understand that. Could you please try again?", "I'm not sure I follow. Can you rephrase that?"],
+        "context": [""] 
+      },
+      {
+        "tag":"introduction",
+        "patterns":["Are you alive?"],
+        "responses": ["No , I am not alive , but you can chat with me"],
+        "context": [""]
+
+
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "what should i call you", "What's your name?","who are you ?"],
+        "responses": ["My name is Chatbot. How can I help you today?", "I am chatbot!"],
+        "context": [""] 
+      }
+      
+      
+
+    ],
+    "responses": {
+      "default": "Sorry, I didn't understand that.",
+      "not_found": "Apologies, I couldn't find a suitable response."
+    }
+}
+  
